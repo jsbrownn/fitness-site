@@ -6,52 +6,60 @@
     <title>Fitness</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/fitness-site/css/normalize.css">
+    <link rel="stylesheet" href="../fitness-site/css/main.css">
     
 </head>
 <body>
     <div class="wrapper">
+
 <!-- header -->
-            <div class="header">
+            <header class="header">
                 <div class="container clearfix">
                     <div class="header__logo logo"> <a href="/" class="logo__link">афродита</a></div>
                     <ul class="header__menu">
                         <li class="menu__item">
-                            <div class="item__pic">
+                            <a href="" class="menu__link">
+                                <div class="item__pic">
                                 <img class='item__pic--main' src="../fitness-site/css/header/main_icon.png" alt="">
-                            </div>
-                            <div class="item__text">главная</div>
+                                </div>
+                                <div class="item__text">главная</div>
+                            </a>
                         </li>   
                         <li class="menu__item">
-                            <div class="item__pic">
+                            <a href="" class="menu__link">
+                                <div class="item__pic"> 
                                 <img class='item__pic--feed' src="../fitness-site/css/header/feed_icon.png" alt="">
-                            </div>
-                            <div class="item__text">отзывы</div>
+                                </div>                              
+                                <div class="item__text">отзывы</div>
+                            </a> 
                         </li>
                         <li class="menu__item">
-                            <div class="item__pic">
-                                <img class='item__pic--service' src="../fitness-site/css/header/service_icon.png" alt="">
-                            </div>
-                            <div class="item__text">услуги</div>
+                            <a href="" class="menu__link">
+                                <a href="" class="menu__link">
+                                    <div class="item__pic">
+                                        <img class='item__pic--service' src="../fitness-site/css/header/service_icon.png" alt="">
+                                    </div>
+                                <div class="item__text">услуги</div>
+                            </a>
                         </li>
                     </ul>
-                    <div class="header__info">
+                    <adress class="header__info">
                         <a class="info__tel" href="tel:8(800) 00-392-10">8(800) 00-392-10</a>
                         <div class="info__schedule">
                             <a href="" class="info__schedule--link">График работы</a>
                         </div>
-                    </div>
+                    </adress>
                 </div>
-            </div>
-<!-- main -->
+            </header>
 
-            <div class="main">
+<!-- main -->
+            <main class="main">
                 <div class="container clearfix">
                     <div class="main__banner">
                         <img src="../fitness-site/css/main/Image.png" alt="FITNESS" class="main__banner">
                     </div>
-                    <div class="main__featured">
+                    <section class="main__featured">
                         <div class="featured__title title">
                             <h2>особенности</h2>
                         </div>
@@ -96,47 +104,58 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </section>
                     <div class="main__news clearfix">
                         <div class="main__news-title title">
                             <h2>последние новости</h2>
                         </div>
-                        <ul class="last-news">
+                        <section class="news">
+                            <ul class="last-news">
                             <li class="last-news__item">
-                                <div class="last-news__image last-news__image--wind"></div>
-                                <div class="last-news__date">12.10.2016</div>
-                                <div class="last-news__title">
-                                    <h4>Похудение с помощью бодибилдинга!</h4>
-                                </div>
-                                <div class="last-news__text">Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</div>
+                                <article class="news__item">
+                                    <div class="last-news__image last-news__image--wind"></div>
+                                    <div class="last-news__date">12.10.2016</div>
+                                    <div class="last-news__title">
+                                        <h4>Похудение с помощью бодибилдинга!</h4>
+                                    </div>
+                                    <div class="last-news__text">Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</div>
+                                </article>
                             </li>
                             <li class="last-news__item">
-                                <div class="last-news__image last-news__image--fire"></div>
-                                <div class="last-news__date">01.02.2016</div>
-                                <div class="last-news__title"><h4>Заряжай друзей, получай призы!</h4></div>
-                                <div class="last-news__text">Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!</div>
+                                <article class="news__item">
+                                    <div class="last-news__image last-news__image--fire"></div>
+                                    <div class="last-news__date">01.02.2016</div>
+                                    <div class="last-news__title"><h4>Заряжай друзей, получай призы!</h4></div>
+                                    <div class="last-news__text">Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!</div>
+                                </article>
                             </li>
-                            <li class="last-news__item">
-                                <div class="last-news__image last-news__image--mac"></div>
-                                <div class="last-news__date">22.12.2015</div>
-                                <div class="last-news__title"><h4>Фрилансер? Выпрями спину!</h4></div>
-                                <div class="last-news__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! </div>
-                            </li>
-                        </ul>
-                        <div class="main__top-news">
+                                <li class="last-news__item">
+                                    <article class="news__item">
+                                        <div class="last-news__image last-news__image--mac"></div>
+                                        <div class="last-news__date">22.12.2015</div>
+                                        <div class="last-news__title"><h4>Фрилансер? Выпрями спину!</h4></div>
+                                        <div class="last-news__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! </div>
+                                    </article>
+                                </li>
+                                </ul>
+                            </section>
+
+                        <aside class="main__top-news">
                             <div class="top-news__title">
                                 <h3>топ-новостей</h3>
                             </div>
                             <div class="top-news__mounts">за сентябрь</div>
                             <ul class="top-news__preview">
-                                <li class="top-news__image-item"></li>
-                                <li class="top-news__image-item"></li>
-                                <li class="top-news__image-item"></li>
-                            </ul>
-                            
-                        </div>
+                                <li class="top-news__image-item"><a href="" class="top-news__link"></a></li>
+                                <li class="top-news__image-item"><a href="" class="top-news__link"></a></li>
+                                <li class="top-news__image-item"><a href="" class="top-news__link"></a></li>
+                            </ul>                            
+                        </aside>
                     </div>
-                    <div class="pagination">
+
+<!-- pagination -->
+
+                    <nav class="pagination">
                         <div class="pagination__display">Страница 1 из 7</div>
                             <div class="pagination__button pagination__button--back"><</div>
                             <ul class="pagination__buttons">
@@ -149,11 +168,13 @@
                                 <li class="pagination__item"><a href="" class="pagination__btn">7</a></li>
                             </ul>
                             <div class="pagination__button pagination__button--forward">></div>
-                    </div>
+                        </nav>
                 </div>
             </div>
-    </div>
-    <div class="footer">
+
+<!-- footer -->
+
+    <footer class="footer">
                 <div class="container clearfix">
                     <div class="footer__copyright">
                         <div class="copyright__descrition">Сделано с любовью и старанием
@@ -172,7 +193,7 @@
                         </ul>
                     </div>
                 </div>
-            </div> 
+            </footer> 
     
 </body>
 </html>
