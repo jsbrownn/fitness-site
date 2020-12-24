@@ -362,7 +362,8 @@ padding-top: 20px;
 }
 
 
-.top-news__image-item{
+.top-news__link{
+    display: block;
     width: 160px;
     height: 120px;
     margin-bottom:20px;
@@ -370,18 +371,18 @@ padding-top: 20px;
 }
 
 
-.top-news__image-item:first-child{
-    background: url('../css/main/aside/Layer_10.png') center center no-repeat;
+.top-news__link--1{
+    background: url('/css/main/aside/Layer_10.png') center center no-repeat;
 
 }
 
-.top-news__image-item:nth-child(2){
-    background: url('../css/main/aside/Layer_11.png') center center no-repeat;
+.top-news__link--2{
+    background: url('/css/main/aside/Layer_11.png') center center no-repeat;
 
 }
 
-.top-news__image-item:nth-child(3){
-    background: url('../css/main/aside/Layer_12.png') center center no-repeat;
+.top-news__link--3{
+    background: url('/css/main/aside/Layer_12.png') center center no-repeat;
 }
 
 /* pagination */
@@ -441,6 +442,8 @@ padding-top: 20px;
 }
 
 .footer{
+    position:absolute;
+    z-index: 2;
     height: 75px;
     background: #131415;
     color: #fff;
@@ -468,7 +471,7 @@ padding-top: 20px;
 }
 
 
-.copyright__descriotion--link{
+.copyright__description--link{
     color:#fff;
     font-weight: bold;
 }
@@ -490,34 +493,41 @@ padding-top: 20px;
 .social-networks__list{
     padding-left: 0;
 }
+.social-networks__item{
+    display:inline-block;
+    margin-right: 10px;
+}
 
 .social-networks__link--vk{
-    background:url(../css/footer/vk.png) center center no-repeat;
+    background:url('/css/footer/vk.png') center center no-repeat;
 }
 .social-networks__link--fb{
-    background:url(../css/footer/fb.png) center center no-repeat;
+    background:url('/css/footer/fb.png') center center no-repeat;
 }
 .social-networks__link--google{
-    background:url(../css/footer/google.png) center center no-repeat;
+    background:url('/css/footer/google.png') center center no-repeat;
 }
 .social-networks__link--twitter{
-    background:url(../css/footer/twitter.png) center center no-repeat;
+    background:url('/css/footer/twitter.png') center center no-repeat;;
 }
 .social-networks__link--mail{
-    background:url(../css/footer/mail.png) center center no-repeat;
+    background:url('/css/footer/mail.png') center center no-repeat;
 }
 
 .social-networks__link{
     display:block;
-    float: right;
     width: 20px;
     height: 20px;
     border-radius:50%;
     background-color: #d0d0d0;
-    margin-right: 10px;
-    
 }
 
 .social-networks__title{
-    text-align: right;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.social-networks__wrap{
+    width: 175px;
+    float: right;
 }
