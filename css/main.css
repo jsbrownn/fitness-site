@@ -76,6 +76,11 @@ li{
     
 }
 
+.menu__link{
+    text-decoration: none;
+    color: #fff;
+}
+
 .menu__item{
     display: inline-block;
     color: #ffffff;
