@@ -372,17 +372,17 @@ padding-top: 20px;
 
 
 .top-news__link--1{
-    background: url('/css/main/aside/Layer_10.png') center center no-repeat;
+    background: url('../css/main/aside/Layer_10.png') center center no-repeat;
 
 }
 
 .top-news__link--2{
-    background: url('/css/main/aside/Layer_11.png') center center no-repeat;
+    background: url('../css/main/aside/Layer_11.png') center center no-repeat;
 
 }
 
 .top-news__link--3{
-    background: url('/css/main/aside/Layer_12.png') center center no-repeat;
+    background: url('../css/main/aside/Layer_12.png') center center no-repeat;
 }
 
 /* pagination */
