@@ -499,7 +499,7 @@ padding-top: 20px;
 }
 
 .social-networks__link--vk{
-    background:url('../css/footer/vk.png') center center no-repeat;
+    background:url(../css/footer/vk.png) center center no-repeat;
 }
 .social-networks__link--fb{
     background:url('../css/footer/fb.png') center center no-repeat;
