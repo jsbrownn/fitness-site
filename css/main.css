@@ -442,7 +442,8 @@ padding-top: 20px;
 }
 
 .footer{
-    position:absolute;
+    position: relative;
+    min-width: 1100px;
     z-index: 2;
     height: 75px;
     background: #131415;
