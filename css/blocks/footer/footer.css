@@ -1,0 +1,91 @@
+.footer{
+    position: relative;
+    z-index: 2;
+    height: 75px;
+    background: #131415;
+    color: #fff;
+    margin-top: -75px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    min-width: 1100px;
+}
+
+.footer>.container{
+    padding: 10px 20px;
+}
+
+.footer__copyright,
+.footer__logo,
+.footer__social-networks{
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px; 
+}
+
+.footer__copyright{
+    padding-right: 100px;
+}
+
+
+.copyright__description--link{
+    color:#fff;
+    font-weight: bold;
+}
+
+.copyright__author--link{
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer__logo{
+    text-align: center;
+}
+
+.social-networks__title{
+    font-weight: bold;
+}
+
+.social-networks__list{
+    padding-left: 0;
+}
+.social-networks__item{
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.social-networks__link--vk{
+    background:url(./vk.png) center center no-repeat;
+}
+.social-networks__link--fb{
+    background:url(./fb.png) center center no-repeat;
+}
+.social-networks__link--google{
+    background:url(./google.png) center center no-repeat;
+}
+.social-networks__link--twitter{
+    background:url(./twitter.png) center center no-repeat;;
+}
+.social-networks__link--mail{
+    background:url(./mail.png) center center no-repeat;
+}
+
+.social-networks__link{
+    display:block;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background-color: #d0d0d0;
+}
+
+.social-networks__title{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.social-networks__wrap{
+    width: 175px;
+    float: right;
+}
