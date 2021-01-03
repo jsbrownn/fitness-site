@@ -1,40 +1,40 @@
 .footer{
-    position: relative;
-    z-index: 2;
-    height: 75px;
+    min-height:75px;
     background: #131415;
     color: #fff;
-    margin-top: -75px;
+    min-width: 1100px;
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 300;
     line-height: 19px;
-    min-width: 1100px;
 }
 
-.footer>.container{
-    padding: 10px 20px;
+.container__footer{
+        padding: 5px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 .footer__copyright,
 .footer__logo,
 .footer__social-networks{
-    display: inline-block;
-    vertical-align: middle;
-    width: 350px; 
+    width: 33.3%;
+    font-weight: light;
+
 }
 
 .footer__copyright{
-    padding-right: 100px;
+    padding-right: 40px;
 }
 
 
-.copyright__description--link{
+.footer-copyright__link{
     color:#fff;
     font-weight: bold;
 }
 
-.copyright__author--link{
+.footer-copyright__author-link{
     color:#fff;
     font-weight: bold;
     text-decoration: none;
@@ -42,6 +42,15 @@
 
 .footer__logo{
     text-align: center;
+}
+
+.footer__social-networks{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.social-networks__wrap{
+    display: inline-block;
 }
 
 .social-networks__title{
@@ -56,21 +65,6 @@
     margin-right: 10px;
 }
 
-.social-networks__link--vk{
-    background:url(./vk.png) center center no-repeat;
-}
-.social-networks__link--fb{
-    background:url(./fb.png) center center no-repeat;
-}
-.social-networks__link--google{
-    background:url(./google.png) center center no-repeat;
-}
-.social-networks__link--twitter{
-    background:url(./twitter.png) center center no-repeat;;
-}
-.social-networks__link--mail{
-    background:url(./mail.png) center center no-repeat;
-}
 
 .social-networks__link{
     display:block;
@@ -78,14 +72,35 @@
     height: 20px;
     border-radius:50%;
     background-color: #d0d0d0;
+    background-image: url(/css/sprite.png);
 }
+
+.social-networks__link:hover{
+    background-color: #f89513;
+}
+
+.social-networks__link--vk{
+    background-position: 3px 6px;
+}
+
+.social-networks__link--fb{
+    background-position: -43px 4px;
+}
+
+.social-networks__link--google{
+    background-position:-97px 5px;
+}
+
+.social-networks__link--twitter{
+    background-position: -145px 5px;
+}
+
+.social-networks__link--gmail{
+    background-position: -196px 5px;;
+}
+
 
 .social-networks__title{
     text-align: left;
     margin-bottom: 5px;
-}
-
-.social-networks__wrap{
-    width: 175px;
-    float: right;
 }
