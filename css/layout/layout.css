@@ -50,8 +50,10 @@ li{
 
 /* разметка для  страницы "услуги" */
 
-.services-container__main{
+.container__main{
     width: 880px;
+    margin: 0 auto;
+    
 }
 
 
