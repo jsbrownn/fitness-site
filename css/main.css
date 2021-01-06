@@ -10,4 +10,10 @@
 
 @import url(./blocks/pagination.css);
 
+@import url(./blocks/services/breadcrumbs.css);
+
+@import url(./blocks/services/services.css);
+
+@import url(./blocks/reviews/reviews.css);
+
 @import url(./blocks/footer/footer.css);

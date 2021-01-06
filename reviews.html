@@ -1,102 +1,252 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness</title>
+    <title>Отзывы</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-    
+
 </head>
+  
 <body>
     <div class="wrapper">
-
 <!-- header -->
-            <header class="header">
-                <div class="container clearfix">
-                    <div class="header__logo logo"> <a href="/" class="logo__link">афродита</a></div>
-                    <ul class="header__menu">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">
-                                <div class="item__pic">
-                                <img class='item__pic--main' src="./css/blocks/header/main_icon.png" alt="">
+        <header class="header">
+            <div class="container container__header">
+                <div class="header__logo logo">
+                    <a href="/" class="logo__link">афродита</a>
+                </div>
+                <ul class="header__menu menu">
+                    <li class="menu__item">
+                        <a href="" class="menu__link menu__link--main">
+                            <div class="menu__text">главная</div>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./reviews.html" class="menu__link menu__link--feed">
+                            <div class="menu__text">отзывы</div>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./services.html" class="menu__link menu__link--service">
+                            <div class="menu__text">услуги</div>
+                        </a>
+                    </li>
+                </ul>
+                <address class="header__info">
+                    <a class="header__info-tel" href="tel:8(800) 00-392-10">8 (800) 00-392-10</a>
+                    <div class="header__info-schedule">
+                        <a href="" class="header__info-link">
+                            <p class="header-info__text">График работы</p>
+                            <div class="header__dropdown">
+                                <div class="header-dropdown__triangle"></div>
+                                <div class="header-dropdown__time">пн-вс: 09:00-20:00 </div>
+                                <div class="header-dropdown__break">обед: 14:00-14:30 </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </address>
+            </div>
+        </header>
+<!-- main -->
+        <main class="main">
+            <div class="container container__main">
+                <nav class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item"><a href="/" class="breadcrumbs-item__link">Главная</a></li>
+                        <li class="breadcrumbs__item"><a href="/" class="breadcrumbs-item__link">Отзывы</a></li>
+                    </ul>
+                </nav>
+                <section class="reviews">
+                    <h1 class="review__title title">Отзывы</h1>
+                    <ul class="reviews__list">
+                        <li class="reviews-list__item">
+                            <article class="review__item">
+                                <div class="review-item__image-wrap">
+                                    <img src="./css/blocks/reviews/img/voronov.png" alt="" class="review__img">
                                 </div>
-                                <div class="item__text">главная</div>
-                            </a>
-                        </li>   
-                        <li class="menu__item">
-                            <a href="" class="menu__link">
-                                <div class="item__pic"> 
-                                <img class='item__pic--feed' src="./css/blocks/header/feed_icon.png" alt="">
-                                </div>                              
-                                <div class="item__text">отзывы</div>
-                            </a> 
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">
-                                <a href="" class="menu__link">
-                                    <div class="item__pic">
-                                        <img class='item__pic--service' src="./css/blocks/header/service_icon.png" alt="">
+                                <div class="review__desc-wrap">
+                                    <div class="review-item__date">12.10.2016</div>
+                                    <h4 class="review-item__title">Алексей Воронов</h4>
+                                    <div class="review__text">Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
                                     </div>
-                                <div class="item__text">услуги</div>
-                            </a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="reviews-list__item">
+                            <article class="review__item">
+                                <div class="review-item__image-wrap">
+                                    <img src="./css/blocks/reviews/img/smol'naya.png" alt="" class="review__img">
+                                </div>
+                                <div class="review__desc-wrap">
+                                    <div class="review-item__date">01.02.2016</div>
+                                    <h4 class="review-item__title">Инна Смольная</h4>
+                                    <div class="review__text">
+                                        Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="reviews-list__item">
+                            <article class="review__item">
+                                <div class="review-item__image-wrap">
+                                    <img src="./css/blocks/reviews/img/afrodita.png" alt="" class="review__img">
+                                </div>
+                                <div class="review__desc-wrap">
+                                    <div class="review-item__date">22.12.2015</div>
+                                    <h4 class="review-item__title"> Владимир Савельев</h4>
+                                    <div class="review__text">Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="reviews-list__item">
+                            <article class="review__item">
+                                <div class="review-item__image-wrap">
+                                    <img src="./css/blocks/reviews/img/savina.png" alt="" class="review__img">
+                                </div>
+                                <div class="review__desc-wrap">
+                                    <div class="review-item__date">14.08.2015</div>
+                                    <h4 class="review-item__title">Ирина Савина</h4>
+                                    <div class="review__text">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%. 
+                                    </div>
+                                </div>
+                            </article>
                         </li>
                     </ul>
-                    <adress class="header__info">
-                        <a class="info__tel" href="tel:8(800) 00-392-10">8 (800) 00-392-10</a>
-                        <div class="info__schedule">
-                            <a href="" class="info__schedule--link">График работы</a>
-                        </div>
-                    </adress>
-                </div>
-            </header>
-
-
-
-<!-- pagination -->
-
                     <nav class="pagination">
                         <div class="pagination__display">Страница 1 из 7</div>
-                            <div class="pagination__button pagination__button--back"><</div>
-                            <ul class="pagination__buttons">
-                                <li class="pagination__item"><a href="" class="pagination__btn pagination__btn--active">1</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">2</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">3</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">4</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">5</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">6</a></li>
-                                <li class="pagination__item"><a href="" class="pagination__btn">7</a></li>
-                            </ul>
-                            <div class="pagination__button pagination__button--forward">></div>
-                        </nav>
+                        <div class="pagination__button pagination__button--back"> &lt </div>
+                                <ul class="pagination__buttons">
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn pagination__btn--active">1</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">2</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">3</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">4</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">5</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">6</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="" class="pagination__btn">7</a>
+                                    </li>
+                                </ul>
+                                <div class="pagination__button pagination__button--forward"> &gt </div>
+                    </nav>
+                </section>
+            </div>
+                <section class="info">
+                    <div class="info__wrap">
+                        <div class="info__text">Помимо перечисленных услуг, мы предоставляем
+                            консультации профессиональных диетологов, тренеров, психологов.
+                            Также есть кабинет массажа, зал спа рядом с бассейном и возможность
+                            арендовать центр для проведения массовых мероприятий.
+                            <span class="info-text__orange">Ждем ваших заявок!</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="form">
+                    <div class="container__main">
+                        <form action="" class="form__elem">
+                            <h2 class="form__title title">Оставить отзыв</h2>
+                            <div class="form__row">
+                                <div class="form__block">
+                                    <label for="name" class="form__label" ">Ваше имя</label>
+                                    <input type="text" id="name"  class="form__input" required placeholder="Андрей">
+                                </div>
+                                <div class="form__block">
+                                    <label for="link" class="form__label">Ссылка на профиль в VK</label>
+                                    <input type="text" name="page-vk" id="link" class="form__input"required placeholder="vk.com/example">
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__block">
+                                    <label for="review" class="form__label">Текст отзыва</label>
+                                    <textarea name="review" id="review" class="form__input form__input-textarea" placeholder="Мне понравилось"></textarea>
+                                </div>
+                            </div>
+                            <div class="form__row">                               
+                                <div class="form__block form__block--radio">
+                                    <div class="form__label">Отображать фото в отзыве?
+                                    </div>                                    
+                                    <label class="form__label-radio">
+                                        <input type="radio" name="photo" id="yes" value="yes" class="form__radio" checked>
+                                        <div class="form__input-visible"></div>
+                                        <div class="form__input-title">Да</div>
+                                    </label>
+                                    <label class=" form__label-radio">
+                                        <input type="radio" id="photo-no" name="photo" value="no" class="form__radio">
+                                        <div class="form__input-visible"></div>
+                                        <div class="form__input-title">Нет</div>
+                                    </label>
+                                </div>
+                                <div class="form__block form__block--submit">
+                                    <input type="submit" class="form__input-submit" value="ОТПРАВИТЬ">
+                                    
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+        </main>
+<!-- footer -->
+        <footer class="footer">
+            <div class="container container__footer">
+                <div class="footer__copyright">
+                    <div class="footer-copyright__description">
+                        Сделано с любовью и старанием на курсе «HTML + CSS» в
+                        <a href="loftscool.org" class="footer-copyright__link">LoftSchool.</a>
+                    </div>
+                    <div class="footer-copyright__author-desc">
+                        Автор работы -
+                        <a href="htttps://instagram.com/tuchedoof" class="footer-copyright__author-link">Борейко
+                            Сергей</a>
+                    </div>
+                </div>
+                <div class="footer__logo logo">
+                    <a href="/" class="logo__link">афродита</a>
+                </div>
+                <div class="footer__social-networks">
+                    <div class="social-networks__wrap">
+                        <div class="social-networks__title">Наши социальные сети</div>
+                        <ul class="social-networks__list">
+                            <li class="social-networks__item">
+                                <a href="https://vk.com" class="social-networks__link social-networks__link--vk"></a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="https://fb.com" class="social-networks__link social-networks__link--fb"></a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="twitter.com" class="social-networks__link social-networks__link--google"> </a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="google.com" class="social-networks__link social-networks__link--twitter"></a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="ailto:hsvpass@gmail.com?subject=Положительный ответ на резюме"
+                                    class="social-networks__link social-networks__link--gmail"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-<!-- footer -->
-
-    <footer class="footer">
-                <div class="container clearfix">
-                    <div class="footer__copyright">
-                        <div class="copyright__description">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="loftscool.org" class="copyright__description--link">LoftSchool.</a></div>
-                        <div class="copyright__author">Автор работы - <a href="instagram.com/tuchedoof" class="copyright__author--link">Борейко Сергей</a></div>
-                    </div>
-                    <div class="footer__logo logo"><a href="/" class="logo__link">афродита</a></div>
-                    <div class="footer__social-networks">
-                        <div class="social-networks__wrap">
-                            <div class="social-networks__title">Наши социальные сети</div>
-                                <ul class="social-networks__list">
-                                    <li class="social-networks__item"><a href="vk.com" class="social-networks__link social-networks__link--vk"></a></li>
-                                    <li class="social-networks__item"><a href="facebook.com" class="social-networks__link social-networks__link--fb"></a></li>
-                                    <li class="social-networks__item"><a href="google.com" class="social-networks__link social-networks__link--google"></a></li>
-                                    <li class="social-networks__item"><a href="twitter.com" class="social-networks__link social-networks__link--twitter"></a></li>
-                                    <li class="social-networks__item"><a href="mailto:hsvpass@gmail.com?subject=Положительный ответ на резюме" class="social-networks__link social-networks__link--mail"></a></li>
-                                </ul>
-                            </div>
-                    </div>
-                </div>
-            </footer> 
-    
+        </footer>
+    </div>
 </body>
+
 </html>

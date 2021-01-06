@@ -23,13 +23,23 @@ li{
     overflow:hidden;
     position: relative;
     min-width: 1120px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
 
 }
 
-.wrapper::after{
-    display: block;
-    content: "";
-    height: 75px;
+.header{
+    flex: 0 0 auto;
+}
+
+.main{
+    flex: 1 0 auto;
+}
+
+.footer{    
+    flex: 0 0 auto;
 }
 
 .container{
@@ -38,13 +48,20 @@ li{
 
 }
 
-.header>.container{
-    padding: 0 20px;
-    padding-top: 15px;
+/* разметка для  страницы "услуги" */
+
+.container__main{
+    width: 880px;
+    margin: 0 auto;
+    
 }
 
-.clearfix::after{
-    display: block;
-    content:"";
-    clear: both;
-}
+
+
+
+
+
+
+
+
+

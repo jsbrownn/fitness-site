@@ -1,0 +1,199 @@
+.review__title{
+    font-size: 49px;
+    letter-spacing: 2.45px;
+    text-transform: uppercase;
+}
+
+.reviews__list{
+}
+
+
+.reviews-list__item{
+    border-bottom: 2px solid #f5f5f5;
+    
+}
+.review__item{
+    display: flex;
+    align-items: center;
+}
+
+.review__item:last-child{
+    border-bottom:none;
+}
+
+.review__desc-wrap{
+    padding:20px;
+}
+
+.review-item__date{
+    color: #000;
+    opacity: .7;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+}
+
+.review-item__title{
+    margin: 10px 0;
+}
+
+.review__text{
+    font-size: 16px;
+    font-weight:lighter;
+    line-height: 1.67;
+    min-height:160px;
+}
+
+.review-item__image-wrap{
+    max-width: 160px;
+    max-height: 160px;
+    overflow: hidden; 
+    border-radius: 50%;
+    flex-shrink: 0;
+
+}
+
+.review__desc-wrap{
+    flex-shrink: 1;
+}
+
+.review__img{
+    object-fit:contain;
+    width:160px;
+    height: 160px;
+    
+}
+
+
+
+
+
+
+
+.info__wrap {
+    background: #000;
+    color: #fff;
+    border: 1px solid black;
+    /*чтобы margin  не вылазил за блок*/
+}
+
+.info__text {
+    max-width: 670px;
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.info-text__orange {
+    color: #f89513;
+    font-weight: bold;
+}
+
+/* form reviews*/
+
+.form__elem {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    width: 80%;
+    margin: 60px auto;
+    padding: 35px 70px;
+}
+
+.form__title {
+    margin-top: 0;
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.form__label {
+    margin-bottom: 7px;
+    display: block;
+}
+
+.form__input {
+    padding: 15px 9px;
+    border: 0;
+    width: 100%;
+}
+
+.form__input:focus {
+    outline-color: #f89513;
+}
+
+.form__block {
+    margin-right: 30px;
+    flex: 1;
+}
+
+.form__block:last-child {
+    margin-right: 0;
+}
+
+.form__input-visible, .form__input-title, .form__label-radio {
+    display: inline-block;
+}
+
+.form__radio {
+    display: none;
+}
+
+.form__label-radio {
+    display: inline-flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.form__input-visible {
+    content: '';
+    width: 22px;
+    height: 22px;
+    border: 1px solid #f89513;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+}
+
+.form__radio:checked+.form__input-visible:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: #f89513;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.form__input-title {
+    margin-left: 20px;
+}
+
+.form__block--submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__input-submit {
+    width: 125px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #1c1f1d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}

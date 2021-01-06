@@ -44,10 +44,20 @@
 }
 
 
+
 .pagination__btn--active{
     
     padding: 2px 0;
     background-color: #27273e;
     border-radius: 5px;
+    color:#fff;
+}
+
+.pagination__btn:hover,
+.pagination__button:hover{
+    color: #f89513;
+}
+
+.pagination__btn--active:hover{
     color:#fff;
 }
