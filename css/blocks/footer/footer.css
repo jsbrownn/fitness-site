@@ -72,7 +72,7 @@
     height: 20px;
     border-radius:50%;
     background-color: #d0d0d0;
-    background-image: url(/css/sprite.png);
+    background-image: url(./../../sprite.png);
 }
 
 .social-networks__link:hover{
