@@ -59,9 +59,10 @@
 
 .social-networks__list{
     padding-left: 0;
+    display:flex;
+    
 }
 .social-networks__item{
-    display:inline-block;
     margin-right: 10px;
 }
 
@@ -77,6 +78,8 @@
 
 .social-networks__link:hover{
     background-color: #f89513;
+    transform: scale(1.2);
+    transition: .2s;
 }
 
 .social-networks__link--vk{

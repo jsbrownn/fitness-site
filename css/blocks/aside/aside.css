@@ -1,5 +1,5 @@
 .main__top-news{
-    flex: 0 1 20%;
+    flex: 0 1 16%;
     font-size: 12px;
     font-weight: 700;
     display: flex;
@@ -15,14 +15,15 @@
     letter-spacing: 1px;
     line-height: 21px;
     text-transform: uppercase;
+    margin: 15px 0 10px 0;
 }
 
 .top-news__mounts{ 
     color: #656464;
     letter-spacing: 2px;
-    line-height: normal;
     font-size: 13px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .top-news__preview{

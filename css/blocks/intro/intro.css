@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     animation:scale 1s 1s cubic-bezier(0.66, 0.01, 0.42, 0.96);
-    filter:none;
+
 }
 
 .welcome__logo{

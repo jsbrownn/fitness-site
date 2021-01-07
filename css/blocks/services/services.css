@@ -1,7 +1,7 @@
 
 
 .section-services__title {
-        margin: 25px 0 50px 0 !important;
+        margin: 0 0 50px 0;
         text-align: left !important;
 }
 
@@ -55,7 +55,6 @@
 .section__patners {
         width: 100%;
         /* не понимаю почему блок не заниммает все доступное пространство */
-        margin-bottom: 80px;
 }
 
 .section-patners__title {
@@ -88,6 +87,7 @@
 
 .patners-item__image:hover {
         filter: grayscale(0);
+        transform: scale(1.2);
 }
 
 .patners-item__image--flamingo {
