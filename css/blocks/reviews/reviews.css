@@ -2,19 +2,20 @@
     font-size: 49px;
     letter-spacing: 2.45px;
     text-transform: uppercase;
-}
+    margin: 0;
+    margin-bottom: 20px;
 
-.reviews__list{
 }
-
 
 .reviews-list__item{
     border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 10px;  
     
 }
 .review__item{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding:20px 0;
 }
 
 .review__item:last-child{
@@ -22,7 +23,8 @@
 }
 
 .review__desc-wrap{
-    padding:20px;
+    flex-shrink: 1; 
+    margin-left: 20px;
 }
 
 .review-item__date{
@@ -31,19 +33,17 @@
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
-    line-height: 21px;
-
 }
 
 .review-item__title{
-    margin: 10px 0;
+    margin:5px 0 10px 0;
+    font-size: 18px;
 }
 
 .review__text{
-    font-size: 16px;
+    font-size: 18px;
     font-weight:lighter;
-    line-height: 1.67;
-    min-height:160px;
+    line-height: 1.67;   
 }
 
 .review-item__image-wrap{
@@ -51,12 +51,8 @@
     max-height: 160px;
     overflow: hidden; 
     border-radius: 50%;
-    flex-shrink: 0;
+    flex-shrink:0;
 
-}
-
-.review__desc-wrap{
-    flex-shrink: 1;
 }
 
 .review__img{
@@ -65,12 +61,6 @@
     height: 160px;
     
 }
-
-
-
-
-
-
 
 .info__wrap {
     background: #000;
@@ -196,4 +186,8 @@
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
+}
+
+.form__input-submit:hover{
+    background-color:#f89513;
 }
