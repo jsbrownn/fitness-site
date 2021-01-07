@@ -44,7 +44,7 @@
     top: 0;
     width: 18px;
     height: 18px;
-    background: url(/css/sprite.png);
+    background: url(./../../sprite.png);
 }
 
 .menu__link--main::before {
