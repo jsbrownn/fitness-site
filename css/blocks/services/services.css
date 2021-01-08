@@ -16,6 +16,7 @@
         max-width: 250px;
 }
 
+
 .article-item__title {
         font-size: 18px;
         margin: 30px 0px 10px 0;
@@ -36,6 +37,21 @@
         height: 150px;
         filter: brightness(50%);
 }
+
+.article__item:hover .article-item__img{
+    filter:none;
+    transition: .4s ;
+
+}
+.article__item:hover .article-item-img__title{
+    opacity: 0;
+    transition: .4s ;
+}
+.article__item:hover .article-item__img{
+    transform:scale(1.1);
+    transition: .2;
+}
+
 
 .article-item-img__title {
         text-transform: uppercase;

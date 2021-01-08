@@ -25,7 +25,7 @@
 }
 
 .footer__copyright{
-    padding-right: 40px;
+    padding-right: 80px;
 }
 
 
@@ -74,12 +74,12 @@
     border-radius:50%;
     background-color: #d0d0d0;
     background-image: url(./../../sprite.png);
+    background-repeat: no-repeat;
 }
 
 .social-networks__link:hover{
     background-color: #f89513;
-    transform: scale(1.2);
-    transition: .2s;
+    transform: scale(1.5);
 }
 
 .social-networks__link--vk{
